@@ -1,0 +1,96 @@
+
+header,img, .title{
+	display:block;
+
+}
+.mainPanel{
+	width: 1000px;
+	height : 600px;
+	margin: 5px auto;
+	font-family: "Times New Roman","Georgia","Tahoma","serif";
+	font-size : 12pt;
+
+}
+.part{
+	margin: 0px;padding: 0px;
+	float: left;
+}
+
+#mainHeader{
+	text-align : center;
+	margin: 0px;padding: 0px;
+	color: rgb(249,74,0);
+	clear: both;
+}
+#mainHeader h1{
+	color: rgb(249,74,0);
+	margin: 0px; padding: 0px;
+	clear: both;
+}
+
+header img{
+	width: 600px;
+	height: 300px;
+	margin: 10px auto;
+}
+#reader{
+	margin: 0px auto;
+}
+
+
+
+
+.paragraph{
+	text-indent: 25px;
+}
+.paragraph:hover{
+	background: #d0d0d0;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	/**background: linear-gradient(180deg, #009900, white); **/
+}
+.paragraph, .title{
+	opacity: 0;
+}
+
+
+
+.title{ 
+	text-align: center; 
+	font-size:20.0pt;
+	font-family:"Times New Roman","serif"; 
+	clear: both; 
+	background: rgb(249,74,0);
+	color: white;
+}
+
+#myHeader{
+	
+	border: 0.5px solid #FF4500;
+	clear: both;
+	
+
+}
+#menu_list{
+	float: right;
+	margin: 0px;
+	display: 1px solid black;
+
+}
+
+#menu_list ul li{
+		text-decoration: none;
+		display: block;
+		background: gray;
+}
+#menu_list ul li ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu_list ul li ul{
+	visibility: hidden;
+}
+#menu_list ul li:hover ul li{
+	visibility: visible;
+}
